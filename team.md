@@ -22,7 +22,12 @@ permalink: /team/
 		<span>{{member.name}}</span><br>
 		<span style="font-style: italic; color: #82827A">
 			{{member.title}} 
-			<a href="{{member.linked-in}}"><img style="width: 15px; height: 15px" src="{{site.url}}/images/linked-in-logo.png"></a>
+			{% capture linked-in-link %}
+				{{member.linked-in}}
+			{% endcapture %}
+			{% if linked-in-link %}
+				<a href="{{member.linked-in}}"><img style="width: 15px; height: 15px" src="{{site.url}}/images/linked-in-logo.png"></a>
+			{% endif %}
 		</span>
     </div>
   </div>
