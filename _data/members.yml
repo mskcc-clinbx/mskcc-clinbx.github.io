@@ -1,9 +1,14 @@
 - name: Ahmet Zehir
   title: Director
   image: "ahmet-zehir.jpeg"
+  linked-in: "https://www.linkedin.com/in/ahmetzehir"
 
 - name: John Ziegler
   title: Software Engineer
   image: "john-ziegler.jpg"
 
+- name: Aijaz Syed
+  title: Lead Software Engineer
+  image: "aijaz-syed.jpg"
 
+- name: 
