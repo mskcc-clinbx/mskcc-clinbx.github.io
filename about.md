@@ -5,5 +5,5 @@ permalink: /about/
 ---
 
 <span>
-    <img src="{{site.url}}/images/team/group-pic-2016.jpeg"></img>
+    <img src="{{site.url}}/images/team/group-pic-2016.jpg"></img>
 </span>
