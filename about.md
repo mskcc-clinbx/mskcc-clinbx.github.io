@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Recent projects, technical musings, and interesting challenges from the Clinical Bioinformatics team at Memorial Sloan Kettering Cancer Center.
+<span>
+    <img src="{{site.url}}/images/team/group-pic-2016.jpg">
+</span>
