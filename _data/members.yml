@@ -2,66 +2,82 @@
 - name: Anoop B. Rema
   title: Software Engineer
   image: "anoop-rema.jpg"
+  linked-in: ""
 
 - name: Jack Birnbaum
   title: Software Engineer
   image: "jack-birnbaum.jpg"
-  
+  linked-in: ""
+
 - name: Anita S. Bowman
   title: Computational Biologist
   image: "anita-bowman.jpg"
+  linked-in: ""
 
 - name: Aaron Dack
   title: Software Engineer
   image: "aaron-dack.jpg"
+  linked-in: ""
 
 - name: Mohammad S. Haque
   title: Software Engineer
   image: "mohammad-haque.jpg"
+  linked-in: ""
 
 - name: Jason Hwee
   title: Software Engineer
   image: "jason-hwee.jpg"
+  linked-in: ""
 
 - name: Gowtham Jayakumaran
   title: Computational Biologist
   image: "gowtham-jayakumaran.jpg"
+  linked-in: ""
 
 - name: Hyunjae R. Kim
   title: Computational Biologist
   image: "ryan-kim.jpg"
+  linked-in: ""
 
 - name: Shruti Madur
   title: Software Engineer
   image: "shruti-madur.jpg"
+  linked-in: ""
 
 - name: Sumit Middha
   title: Computational Biologist
   image: "sumit-middha.jpg"
+  linked-in: ""
 
 - name: Abhinita Mohanty
   title: Computational Biologist
   image: "abhinita-mohanty.jpg"
+  linked-in: ""
 
 - name: Meera Prasad
   title: Software Engineer
   image: "meera-prasad.jpg"
+  linked-in: ""
 
 - name: Ryan Ptashkin
   title: Computational Biologist
   image: "ryan-ptashkin.jpg"
+  linked-in: ""
 
 - name: Andrea Rosado
   title: Pathology Office Assistant
   image: "andrea-rosado.jpg"
+  linked-in: ""
 
 - name: Aijaz Syed
   title: Lead Software Engineer
   image: "aijaz-syed.jpg"
+  linked-in: ""
 
 - name: Mustafa Syed
   title: Software Engineer
   image: "mustafa-syed.jpg"
+  linked-in: ""
 
 - name: Ahmet Zehir
   title: Director
@@ -72,3 +88,4 @@
 - name: John Ziegler
   title: Software Engineer
   image: "john-ziegler.jpg"
+  linked-in: "https://www.linkedin.com/in/johnsziegler"
