@@ -7,7 +7,7 @@ permalink: /team/
 <style type="text/css">
 	.teamImage {
 		margin: 10px;
-		width: 25%;
+		width: 30%;
 		display: inline-block;
 	}
 	.profile {
@@ -24,5 +24,3 @@ permalink: /team/
     </div>
   </div>
 {% endfor %}
-
-
