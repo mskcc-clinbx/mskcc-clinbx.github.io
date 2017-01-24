@@ -21,7 +21,7 @@ Visualizing and analyzing engraftment results can be really tricky. Generally, w
 
 In other words, does the profile post-treatment match the donor rather than the pre-treatment patient (called the host baseline).
 If it doesn't match 100%, what percentage of the profile is coming from the donor, and what percentage is coming from the host baseline? Ideally, as the
-patient receives treatment, the host percent should decrease. This implies that they are mix of the donor(s) from which they received treatment. To help determine
+patient receives treatment, the host percent should decrease. This implies that they are a mix of the donor(s) from which they received treatment. To help determine
 this percentage, pathologists analyze samples from the donor and the patient both pre and post-treatment. The donor sample and pre-treatment patient sample will each
 have unique profiles, and the post-treatment sample should be a mixture of the two. The pathologist can then determine percentages based on which sample contributed
 the most to the post-treatment profile.
