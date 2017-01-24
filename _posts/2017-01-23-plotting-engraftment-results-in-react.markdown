@@ -169,11 +169,11 @@ class PeaksGraph extends React.Component {
    }
 
    _onNearestX(value, { index }) {
-      var newVal = value;
-      newVal.peak = "P" + (index + 1).toString();
-      newVal.annotation = this.props.peaks[index].get("annotation");
+      var newNearest = value;
+      newNearest.peak = this.props.peaks[index].get("peak_id");
+      newNearest.annotation = this.props.peaks[index].get("annotation");
 
-      this.setState({ crosshairValues: [ newVal ] });
+      this.setState({ crosshairValues: [ newNearest ] });
    }
 
    _onMouseLeave() {
