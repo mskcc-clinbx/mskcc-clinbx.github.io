@@ -20,9 +20,9 @@ categories: react front-end flux
 Visualizing and analyzing engraftment results can be really tricky. Generally, we are focused on answering one question - was the engraftment successful?
 
 In other words, does the profile post-treatment match the donor rather than the pre-treatment patient (called the host baseline).
-Ff it doesn't match 100%, what percentage of the profile is coming from the donor, and what percentage is coming from the host baseline? Ideally, as the
+If it doesn't match 100%, what percentage of the profile is coming from the donor, and what percentage is coming from the host baseline? Ideally, as the
 patient receives treatment, the host percent should decrease. This implies that they are mix of the donor(s) from which they received treatment. To help determine
-this percentage, pathologists analyze samples from the donor and the patient both pre and post-treatment. The donor sample and patient pre-treatment sample will each
+this percentage, pathologists analyze samples from the donor and the patient both pre and post-treatment. The donor sample and pre-treatment patient sample will each
 have unique profiles, and the post-treatment sample should be a mixture of the two. The pathologist can then determine percentages based on which sample contributed
 the most to the post-treatment profile.
 
@@ -129,7 +129,7 @@ class PeaksDataTable extends React.Component {
 }
 ```
 
-To render this data table, we use Facebook's [fixed-data-table](http://facebook.github.io/fixed-data-table/). Each Column takes a header and a cell as props. For our headers, we only need basic text so we just use the default Cell component included in fixed-data-table. For our actual rows, we have an editable cell, and a non-editable cell defined below:
+To render this data table, we use Facebook's [fixed-data-table](http://facebook.github.io/fixed-data-table/). Each Column takes a header and a cell as props. For our headers, we only need basic text so we simply use the default Cell component included in fixed-data-table. For our actual rows, we have an editable cell, and a non-editable cell defined below:
 
 ```javascript
 
