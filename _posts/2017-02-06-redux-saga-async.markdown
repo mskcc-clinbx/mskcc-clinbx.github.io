@@ -26,7 +26,7 @@ redux-saga. One of the main reasons we love sagas is that it allows us the abili
 
 ### Working with API Requests - A Map Approach
 
-There are a multitude of different ways to structure how you actual call an API, this is just one technique that we are implementing, and in no means exhaustive. We are going to construct our API map. 
+There are a multitude of different ways to structure how you actually call an API, this is just one technique that we are implementing, and in no means exhaustive. We are going to construct our API map. 
 First we are going to compose our header settings into an object that we are calling ```API_REQUEST_SETTING```.
 
 ```javascript
