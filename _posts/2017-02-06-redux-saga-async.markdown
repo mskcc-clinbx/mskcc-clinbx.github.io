@@ -16,6 +16,17 @@ categories: react front-end redux
 
 </script>
 
+<style type="text/css">
+  .teamImage {
+  padding: 10px;
+  width: 175px;
+  margin: 0 auto;
+  }
+  .profile {
+  text-align: center;
+  }
+</style>
+
 Here at MSK we have a large array of applications that are constantly communicating with remote API's. Naturally, we have the desire to not handle these actions synchronously. We want the ability to hit off a request, 
 and then return to it some period later and handle it. We also want the ability to manage our application state in a centralized location, not just isolated to separate components that are unaware of each other. This blog post will
 focus on asynchronous libraries specifically centered around redux. Redux is a predictable state container for JavaScript applications, allowing you to write consistent, predictable applications. Enough on that though, if you are interested
