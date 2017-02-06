@@ -19,12 +19,12 @@ categories: react front-end redux
 Here at MSK we have a large array of applications that are constantly communicating with remote API's. Naturally, we have the desire to not handle these actions synchronously. We want the ability to hit off a request, 
 and then return to it some period later and handle it. We also want the ability to manage our application state in a centralized location, not just isolated to separate components that are unaware of each other. This blog post will
 focus on asynchronous libraries specifically centered around redux. Redux is a predictable state container for JavaScript applications, allowing you to write consistent, predictable applications. Enough on that though, if you are interested
-in the workings of redux, I strongly suggest to visit their docs (here)[http://redux.js.org/].
+in the workings of redux, I strongly suggest to visit their docs [here](http://redux.js.org/).
 
 There are two main libraries right now that handles asynchronous processes for redux. The first is redux-thunk, and the second is redux-saga. The main difference between thunk and saga is that thunk utilizes promises while saga utilizes generator functions. Here at MSK we are big advocates for 
 redux-saga. One of the main reasons we love sagas is that it allows us the ability to write code that looks synchronous but behaves asynchronously. This is especially powerful for keeping a grasp of where you are in your app and the logic that is driving your data fetching and processing. Besides that, the differences are quite small between the two libraries, depending on whether you like to work with generators or promises, and of course different API vernacular. 
 
-###Working with API Requests - A Map Approach
+### Working with API Requests - A Map Approach
 
 There are a multitude of different ways to structure how you actual call an API, this is just one technique that we are implementing, and in no means exhaustive. We are going to construct our API map. 
 First we are going to compose our header settings into an object that we are calling ```API_REQUEST_SETTING```.
@@ -118,7 +118,7 @@ Which returns a promise that we handle gracefully here...
 
 And that's it. From here on out we can just plug whatever endpoint we want into our apiRequestMap and then just key on it to return our settings. But... where does redux-saga come in? How would we call this dummyWebService? 
 
-###Using Redux-Saga
+### Using Redux-Saga
 
 This section requires some nascent understanding of how generators work, but altogether will not be difficult to understand if you understand the methodologies underlying them. 
 
@@ -184,7 +184,7 @@ The reason we are using fork here is ... according to their docs ...
 
 > fork, like call, can be used to invoke both normal and Generator functions. But, the calls are non-blocking, the middleware doesn't suspend the Generator while waiting for the result of fn. Instead as soon as fn is invoked, the Generator resumes immediately.
 
-###Conclusion
+### Conclusion
 
 In the end, handling asynchronicity and concurrent computations is oftentimes painful and difficult in applications. As the larger an application grows the need for a base to handle all API requests as well as a way to 
 gracefully consume the responses becomes apparent. Luckily, redux-saga exposes a way for our applications to handle these challenges and does so in a way allowing us to write synchronous looking code. 
